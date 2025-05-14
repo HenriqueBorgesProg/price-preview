@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(204, 43%, 93%);
+  padding: 2rem;
+}
+
+.main-container {
+  max-width: 635px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.header-container {
+  background: white;
+  padding: 2.5rem;
+}
+
+.header-container h1 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.money-back {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.header-text p {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.6;
+}
+
+.lowerpart-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.monthly-container {
+  background: hsl(179, 62%, 43%);
+  padding: 2.5rem;
+  color: white;
+}
+
+.price-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.period {
+  opacity: 0.7;
+}
+
+.access-text {
+  margin-bottom: 2rem;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 1rem;
+  background: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.information-container {
+  background: hsl(179, 47%, 52%);
+  padding: 2.5rem;
+  color: white;
+}
+
+.advantages-list {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.advantages-list li {
+  opacity: 0.8;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .lowerpart-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .main-container, .header-container, .monthly-container, .information-container {
+    padding: 1.5rem;
+  }
+}
