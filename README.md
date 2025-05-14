@@ -23,4 +23,4 @@ Acesse o projeto online:
 ## 🛠️ Como Executar Localmente
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/single-price-grid.git
+   git clone https://github.com/HenriqueBorgesProg/price-preview/.git
